@@ -1,0 +1,138 @@
+.header {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    background: #0e123e;
+}
+.body {
+    position: absolute;
+    top:150px;
+    background: white;
+    left:0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px 50px 0px 0px;
+    padding: 50px 30px 4px 30px;
+}
+.profilePic {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.profilePicImg {
+    width: 80px;
+    height: 80px;
+    border: solid #fd93d5 3px;
+    border-radius: 50%;
+}
+.hola {
+    color: white;
+    position: absolute;
+    top: 40px;
+    left:30px;
+    font-size: 30px;
+}
+.nombre {
+    color: white;
+    position: absolute;
+    top: 70px;
+    left:30px;
+    font-size: 20px;
+}
+.cont {
+    position: absolute;
+    top: 110px;
+    height: 220px;
+    left: 30;
+    right: 30;
+    overflow: hidden;
+}
+.recetasCont {
+    position: absolute;
+    height: 200px;
+    width: fit-content;
+    left: 0;
+    overflow: hidden;
+    display: grid;
+    grid-gap: 15px;
+    grid-auto-flow: column;  
+}
+.foodPic{
+    width: 100px;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+    margin: 20px 0px 0px 33px;
+}
+.receipe {
+    position: relative;
+    width: 165px;
+    background: #f2a3d4;
+    border-radius:20px;
+}
+.receipeDetails {
+    background:rgb(233, 233, 233);
+    position: absolute;
+    top: 140px;
+    bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    left: 5px;
+    right: 5px;
+}
+.dishName {
+    position: absolute;
+    top:0px;
+    left: 5px;
+}
+.dishDur {
+    position: absolute;
+    top:20px;
+    left: 5;
+}
+.dishRating {
+    position: absolute;
+    top:20px;
+    right: 5;
+}
+.queQuiere {
+    position: absolute;
+    top: 340px;
+}
+.queQuiereCont {
+    position: absolute;
+    left: 25;
+    right: 25;
+    bottom: 30;
+    overflow: hidden;
+    top:390px;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 110px);
+    grid-template-rows: repeat(2, 110px);
+}
+.loQueQuiere {
+    background: #f2a3d4;
+    border-radius: 10px;
+    position: relative;
+}
+.loQueQuierePic{
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 33px;
+    margin-top: 16px;
+    box-shadow: 0px 0px 30px 3px #0e123e88;
+}
+.loQueQuiereName {
+    position: absolute;
+    bottom: 16px;
+    left: 5px;
+    right: 5px;
+}
+
+
+

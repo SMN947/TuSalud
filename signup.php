@@ -19,8 +19,10 @@
 </div>
 <div class="loginLogoHolder">
     <img class="imgLogin" src="./images/profile.jpg" alt="">
-    <button class="hidden updateProfileIMG">🔄</button>
+    <button class="updateProfileIMG">🔄</button>
 </div>
 <?php include("./template/footer.php"); ?>
 
 <link rel="stylesheet" href="<?php echo BASEURL; ?>/styles/loginSignUp.css">
+<script>
+</script>

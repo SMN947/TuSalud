@@ -76,5 +76,10 @@ function saveFirstForm() {
         localStorage.setItem(el.id, $(el).val());
         console.log(i, el);
     });
-    //localStorage.setItem("firstForm", true);
+    $(".enfCheck").each((i, el)=>{
+        localStorage.setItem(el.id, $(el).is(':checked'));
+        console.log(i, el);
+    });
+    localStorage.setItem("firstForm", true);
+    location.replace(BASEURL+"/main.php")
 }

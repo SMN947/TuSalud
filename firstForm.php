@@ -9,23 +9,19 @@
     <div class="questionsCont">
         <div class="form-group">
             <label for="exampleInputEmail1"><?= fechaNacimiento ?></label>
-            <input type="date" class="form-control ff" id="fechadenacimiento" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="date" class="form-control ff" id="fechadenacimiento">
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1"><?= estatura ?></label>
-            <input type="email" class="form-control ff" id="estatura" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="exampleInputEmail1"><?= estatura ?> <i>(cm)</i></label>
+            <input type="email" class="form-control ff" id="estatura" placeholder="170">
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1"><?= peso ?></label>
-            <input type="email" class="form-control ff" id="peso" aria-describedby="emailHelp" placeholder="Enter email">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1"><?= talla ?></label>
-            <input type="email" class="form-control ff" id="talla" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="exampleInputEmail1"><?= peso ?> <i>(kg)</i></label>
+            <input type="email" class="form-control ff" id="peso" placeholder="80">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1"><?= presentaEnfermedad ?></label>
-            <select onchange="haveIlls()" class="form-control ff" id="enfermedades" aria-describedby="emailHelp">
+            <select onchange="haveIlls()" class="form-control ff" id="enfermedades">
                 <option value="-">-</option> 
                 <option value="si">Si</option>    
                 <option value="no">No</option>    
@@ -33,25 +29,25 @@
         </div>
         <div id="enfermedadesList" class="hidden">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="diabetes">
-                <label class="form-check-label" for="diabetes">Diabetes</label>
+                <input class="form-check-input enfCheck" type="checkbox" value="" id="diabetes">
+                <label class="form-check-label" for="diabetes"><?= Diabetes ?></label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defhipertiroidismoaultCheck1">
-                <label class="form-check-label" for="hipertiroidismo">Hipertiroidismo</label>
+                <input class="form-check-input enfCheck" type="checkbox" value="" id="hipertiroidismo">
+                <label class="form-check-label" for="hipertiroidismo"><?= Hipertiroidismo ?></label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="hipotiroidismo">
-                <label class="form-check-label" for="hipotiroidismo">Hipotiroidismo</label>
+                <input class="form-check-input enfCheck" type="checkbox" value="" id="hipotiroidismo">
+                <label class="form-check-label" for="hipotiroidismo"><?= Hipotiroidismo ?></label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="hipertension">
-                <label class="form-check-label" for="hipertension">Hipertensión</label>
+                <input class="form-check-input enfCheck" type="checkbox" value="" id="hipertension">
+                <label class="form-check-label" for="hipertension"><?= Hipertension ?></label>
             </div>
         </div>
     </div>
 
-    <button class="btn btnForm">
+    <button class="btn btnForm" onclick="saveFirstForm()">
         <?= guardar ?>
     </button>
 

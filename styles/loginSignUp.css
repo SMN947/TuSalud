@@ -1,14 +1,14 @@
 .FormTitle {
-    padding: 60px 0px 0px 15px;
+    padding: 70px 0px 0px 15px;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .welcomeSub {
     padding: 50px 0px 0px 15px;
     font-weight: 400;
     color: #4c4c4c;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .loginLogoHolder {
