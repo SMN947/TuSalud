@@ -1,8 +1,9 @@
 <?php
-const siguiente = "Siguiente";
-const Slider1Tit = "Slider 1 Tit";
-const Slider1 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat nemo soluta a provident veniam dolorum perspiciatis. Perspiciatis nobis quia sequi culpa. Amet repudiandae atque, harum neque consequatur consectetur. Exercitationem.";
-const Slider2Tit = "Slider 2 Tit";
-const Slider2 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat nemo soluta a provident veniam dolorum perspiciatis. Perspiciatis nobis quia sequi culpa. Amet repudiandae atque, harum neque consequatur consectetur. Exercitationem.";
-const Slider3Tit = "Slider 3 Tit";
-const Slider3 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat nemo soluta a provident veniam dolorum perspiciatis. Perspiciatis nobis quia sequi culpa. Amet repudiandae atque, harum neque consequatur consectetur. Exercitationem.";
+const siguiente = "Suivant";
+const comencemos = "Commençons";
+const Slider1Tit = "Donnés sur la santé";
+const Slider1 = "Suivez votre poids, votre rythme cardiaque, les calories brûlées pendant la journée et votre glycémie en un seul endroit.";
+const Slider2Tit = "Contrôle de l'inventaire";
+const Slider2 = "Gardez une trace de votre inventaire de nourriture et de médicaments, afin de ne jamais oublier ce dont vous avez besoin.";
+const Slider3Tit = "Service de livraison à domicile";
+const Slider3 = "Commandez vos produits d'épicerie et vos médicaments dans votre magasin préfère via l'application.";
