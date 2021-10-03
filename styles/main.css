@@ -52,14 +52,14 @@
         height: 758px;
     }
     .carousel-text {
-    padding: 10px;
-    position: absolute;
-    top: 460px;
-    width: 100%;
+        padding: 10px;
+        position: absolute;
+        top: 580px;
+        width: 100%;
     }
     .carousel-back {
         background: #0e123e;
-        height: 450px;
+        height: 560px;
         width: 700px;
         position: absolute;
         border-radius: 0px 0px 50% 50%;
@@ -69,7 +69,7 @@
         width: 300px !important;
         position: absolute;
         left: 200px;
-        top: 50px;
+        top: 110px;
     }
     .sliderImg1 {
         border-radius: 50%;
