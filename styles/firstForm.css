@@ -1,0 +1,83 @@
+.profilePic {
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 75px);
+    top: 10px;
+}
+.hrprofilePic {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+}
+.nameUser {
+    position: absolute;
+    top: 160px;
+    left: 15px;
+    font-size: 20px;
+}
+.formContainer {
+    width: calc(100% - 30px);
+    position: absolute;
+    top:215px;
+    bottom: 5px;
+    background: #0e123e;
+    color: white;
+    border-radius: 80px 10px 80px 10px;
+    padding: 50px 15px 50px 15px;
+    margin: 15px;
+    border: solid red 1px;
+}
+
+.btnForm, 
+.btnForm:focus, 
+.btnForm:hover, 
+.btnForm:active {
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    left: 10%;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fe93d5;
+    border: none;
+}
+
+.questionsCont {
+    height: 430px;
+    overflow-y: scroll;
+}
+
+
+
+
+/* Tamaño del scroll */
+.questionsCont::-webkit-scrollbar {
+    width: 8px;
+  }
+ /* Estilos barra (thumb) de scroll */
+ .questionsCont::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+  
+  .questionsCont::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  .questionsCont::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+   /* Estilos track de scroll */
+  .questionsCont::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+  }
+  
+  .questionsCont::-webkit-scrollbar-track:hover, 
+  .questionsCont::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+  }
+  

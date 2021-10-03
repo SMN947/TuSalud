@@ -1,0 +1,3 @@
+https://dribbble.com/shots/15319980-Medical-Mobile-App
+--historial clinico: peso, talla, edad, si presenta enfermedad cual?
+--indicadores medicos: Glucosa, tension arterial, ritmo cardico, vincular smartBand

@@ -2,6 +2,12 @@
     const BASEURL = "http://localhost/Tusalud";
     include("./template/strings.php");
 ?>
+<script>
+    var comencemos = "<?= comencemos ?>";
+    var siguiente = "<?= siguiente ?>";
+    var BASEURL = "<?= BASEURL ?>";
+    var WrongMail = "<?= WrongMail ?>";
+</script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,3 +26,4 @@
         <img class="image" src="<?= BASEURL ?>/images/frame.png" alt="">
         <div class="appContainer">
 <link rel="stylesheet" href="<?php echo BASEURL; ?>/styles/main.css">
+

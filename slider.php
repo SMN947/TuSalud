@@ -38,11 +38,11 @@
         </div>
     </div>
 </div>
-<button class="sliderPrev btn btn-info" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<button id="sliderPrev" class="sliderPrev btn btn-info hidden" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 </button>
 <button class="sliderNext btn" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <?= siguiente ?>
+    <span id="slideNext"><?= siguiente ?></span>
 </button>
 <?php include("./template/footer.php"); ?>
 <script>

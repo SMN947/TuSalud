@@ -1,0 +1,87 @@
+.FormTitle {
+    padding: 60px 0px 0px 15px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.welcomeSub {
+    padding: 50px 0px 0px 15px;
+    font-weight: 400;
+    color: #4c4c4c;
+    font-size: 20px;
+}
+
+.loginLogoHolder {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 30px;
+    top: 170px;
+    border-radius: 0px 50% 50% 50%;
+    border: white;
+    background-color: #fc93d5;
+
+}
+.imgLogin {
+    width: 110px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 0px 50% 50% 50%;
+}
+.loginForm {
+    background: #0e123e;
+    color: white;
+    position: absolute;
+    top: 200px;
+    height: 540px;
+    border-radius: 80px 10px 80px 10px;
+    padding: 60px 15px 50px 15px;
+    margin: 15px;
+}
+.loginFormInput {
+    padding: 20px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    background: transparent !important;
+    border: solid 1px white;
+    color:white !important;
+    font-size: 20px;
+}
+
+.formName {
+    padding: 0px 30px 30px 15px;
+}
+.footer {
+    position:absolute;
+    bottom: 15px;
+    width: 100%;
+    align-content: center;
+}
+.footerText {
+    display:table;
+    margin:0 auto;
+}
+
+.btnForm, 
+.btnForm:focus, 
+.btnForm:hover, 
+.btnForm:active {
+    position: absolute;
+    bottom: 60px;
+    width: 80%;
+    left: 10%;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fe93d5;
+    border: none;
+}
+
+.updateProfileIMG{
+    position: absolute;
+    font-size: 30px;
+    padding: 0px;
+    border: none;
+    bottom: 0px;
+    background: transparent;
+    right: 0px;
+}

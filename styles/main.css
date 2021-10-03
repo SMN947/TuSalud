@@ -21,9 +21,10 @@
         height: 100%;
     }
     .logoSplash{
-        padding: 50px;
-        padding-top:250px;
-        width: 300px;
+        position: absolute;
+        top: 240px;
+        left: 25px;
+        width: 90%;
     }
 
     .loading {
@@ -82,4 +83,18 @@
     }
     .sliderTextContent {
         text-align: justify;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .errMsg{
+        border:solid red 1px !important;
+        color: red !important;
+    }
+
+    .okMsg {
+        border: solid green 1px !important;
+        color: green !important;
     }
