@@ -38,7 +38,10 @@
         font-size: 0px;
         padding: 3px 6px 3px 6px;  
     }
-    .sliderNext, .sliderNext:focus, .sliderNext:hover {
+    .sliderNext, 
+    .sliderNext:focus, 
+    .sliderNext:hover, 
+    .sliderNext:active {
         position: absolute;
         bottom: 10px;
         width: 80%;

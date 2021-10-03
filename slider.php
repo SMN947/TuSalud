@@ -1,5 +1,5 @@
 <?php include("./template/head.php"); ?>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -41,7 +41,7 @@
 <button class="sliderPrev btn btn-info" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 </button>
-<button class="sliderNext btn btn-success" href="#carouselExampleIndicators" role="button" data-slide="next">
+<button class="sliderNext btn" href="#carouselExampleIndicators" role="button" data-slide="next">
     <?= siguiente ?>
 </button>
 <?php include("./template/footer.php"); ?>
