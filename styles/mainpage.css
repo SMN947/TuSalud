@@ -128,10 +128,16 @@
     box-shadow: 0px 0px 30px 3px #0e123e88;
 }
 .loQueQuiereName {
+    text-align: center;
+    align-content: center;
     position: absolute;
-    bottom: 16px;
+    bottom: 12px;
+    top: 70px;
     left: 5px;
     right: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 13px;
 }
 
 

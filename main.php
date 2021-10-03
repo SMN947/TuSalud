@@ -39,30 +39,12 @@
         <h3><?= topRecetas ?></h3>
     </div>
     <div class="queQuiereCont">
-        <div class="loQueQuiere">
-            <img class="loQueQuierePic" src="./images/profile.jpg" alt="">
-            <span class="loQueQuiereName">Section Name</span>
+        <?php foreach ($menu as $key => $value) { ?>
+        <div class="loQueQuiere" onclick='location.replace("<?= $value["taget"] ?>")'>
+            <img class="loQueQuierePic" src="./images/<?= $value["img"] ?>" alt="">
+            <span class="loQueQuiereName"><?= $value["text"] ?></span>
         </div>
-        <div class="loQueQuiere">
-            <img class="loQueQuierePic" src="./images/profile.jpg" alt="">
-            <span class="loQueQuiereName">Section Name</span>
-        </div>
-        <div class="loQueQuiere">
-            <img class="loQueQuierePic" src="./images/profile.jpg" alt="">
-            <span class="loQueQuiereName">Section Name</span>
-        </div>
-        <div class="loQueQuiere">
-            <img class="loQueQuierePic" src="./images/profile.jpg" alt="">
-            <span class="loQueQuiereName">Section Name</span>
-        </div>
-        <div class="loQueQuiere">
-            <img class="loQueQuierePic" src="./images/profile.jpg" alt="">
-            <span class="loQueQuiereName">Section Name</span>
-        </div>
-        <div class="loQueQuiere">
-            <img class="loQueQuierePic" src="./images/profile.jpg" alt="">
-            <span class="loQueQuiereName">Section Name</span>
-        </div>
+        <?php } ?>
     </div>
 </div>
 
@@ -72,5 +54,5 @@
     $("#nombreusuario").html(localStorage.getItem("name"));
     setTimeout(() => {
         location.reload()
-    }, 80000000000000);
+    }, 800);
 </script>
