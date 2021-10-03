@@ -38,7 +38,7 @@
         font-size: 0px;
         padding: 3px 6px 3px 6px;  
     }
-    .sliderNext {
+    .sliderNext, .sliderNext:focus, .sliderNext:hover {
         position: absolute;
         bottom: 10px;
         width: 80%;
