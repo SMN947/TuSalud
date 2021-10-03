@@ -61,3 +61,20 @@ function login() {
         }
     }
 }
+
+function haveIlls() {
+    console.log($("#enfermedades").val());
+    if($("#enfermedades").val() == "si") {
+        $("#enfermedadesList").show();
+    }else{
+        $("#enfermedadesList").hide();
+    }
+}
+
+function saveFirstForm() {
+    $(".ff").each((i, el)=>{
+        localStorage.setItem(el.id, $(el).val());
+        console.log(i, el);
+    });
+    //localStorage.setItem("firstForm", true);
+}
