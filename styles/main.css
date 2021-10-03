@@ -31,3 +31,52 @@
         bottom: 10px;
         left:40%;
     }
+    .sliderPrev {
+        position:absolute;
+        top:10px;
+        left: 10px;
+        font-size: 0px;
+        padding: 3px 6px 3px 6px;  
+    }
+    .sliderNext {
+        position: absolute;
+        bottom: 10px;
+        width: 80%;
+        left: 10%;
+        font-size: 20px;
+        border-radius: 10px;
+        background: #fe93d5;
+        border: none;
+    }
+    .carousel-item {
+        height: 758px;
+    }
+    .carousel-text {
+    padding: 10px;
+    position: absolute;
+    top: 460px;
+    width: 100%;
+    }
+    .carousel-back {
+        background: #0e123e;
+        height: 450px;
+        width: 700px;
+        position: absolute;
+        border-radius: 0px 0px 50% 50%;
+        left: -150px;
+    }
+    .sliderImg {
+        width: 300px !important;
+        position: absolute;
+        left: 200px;
+        top: 50px;
+    }
+    .sliderImg1 {
+        border-radius: 50%;
+    }
+    .sliderTextH5 {
+        text-align: center;
+    }
+    .sliderTextContent {
+        text-align: justify;
+    }

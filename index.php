@@ -5,6 +5,6 @@
 <?php include("./template/footer.php"); ?>
 <script>
     setTimeout(() => {
-        location.reload()
-    }, 1000);
+        location.replace("<?= BASEURL."/slider.php" ?>");
+    }, 2000);
 </script>
