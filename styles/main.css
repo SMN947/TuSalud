@@ -1,0 +1,33 @@
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .frame {
+        position: relative;
+        display: inline-block;
+    }
+    .image {   }
+    .appContainer {
+        position: absolute;
+        top: 44px;
+        left: 418px;
+        width: 404px;
+        height: 812px;
+        border-radius: 5px;
+    }
+    .splash {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+    .logoSplash{
+        padding: 50px;
+        padding-top:250px;
+        width: 300px;
+    }
+
+    .loading {
+        position:absolute;
+        bottom: 10px;
+        left:40%;
+    }
