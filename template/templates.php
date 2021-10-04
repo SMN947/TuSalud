@@ -31,7 +31,7 @@
         3 => array(
             "img" => "profile.jpg",
             "text" => domicilios,
-            "target" => "historiaclinica.php"
+            "target" => "domicilios.php"
         ),
         4 => array(
             "img" => "profile.jpg",
