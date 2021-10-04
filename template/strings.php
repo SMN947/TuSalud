@@ -48,7 +48,7 @@ const antecedentesMedicos = "Antécédents médicaux";
 const inventario = "Inventario";
 const recetario = "Recetario";
 const domicilios = "❌Domicilios";
-const recordatorio = "❌Recordatorio";
+const recordatorio = "Recordatorio";
 const vincularSmart = "Sync Devices";
 
 const presionArterial = "Presion Arterial";

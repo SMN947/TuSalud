@@ -1,0 +1,123 @@
+.header {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    cursor: pointer;
+    right: 0;
+    background: #0e123e;
+}
+.body {
+    position: absolute;
+    top:110px;
+    background: white;
+    left:0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px 50px 0px 0px;
+    padding: 50px 30px 4px 30px;
+}
+.backButton {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 20px;
+    top: 23px;
+}
+.backButtonIcon {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.sectionTitleCont {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    align-content: center;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.sectionTitle {
+    position: absolute;
+    color: white;
+    top: 30px;
+    left:15px;
+    font-size: 30px;
+}
+
+/********************************************/
+.reminds {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-gap: 10px;
+    overflow-y: hidden;
+    padding: 8px;
+}
+.remind {
+    position: relative;
+    height: 140px;
+    border-radius: 15px;
+    background: #f2a3d4;
+}
+.img {
+    position: absolute;
+    height: 140px;
+    right: 0;
+    background: #290f6473;
+    border-radius: 0px 20px 20px 50px;
+}
+.nombre {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 20px;
+}
+.time {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 20px;
+    
+}
+.ingred {
+    position: absolute;
+    left: 0px;
+    padding: 10px;
+    top: 40px;
+    right: 140px;
+    bottom: 40px;
+    line-height: 17px;
+    border-top: solid 2px purple;
+    border-bottom: solid 2px purple;
+}
+.dosis {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 25px;
+    color: white;
+}
+.soundBtn {
+    position: absolute;
+    left: 15px;
+    padding-left: 20px;
+    border-radius: 40px 10px 10px 10px;
+    top: 15px;
+    background: #fe93d5;
+    font-size: 25px;
+}
+
+.addBtn {
+    position: absolute;
+    right: 15px;
+    padding-right: 20px;
+    border-radius: 10px 40px 10px 10px;
+    top: 15px;
+    background: #fe93d5;
+    font-size: 25px;
+}

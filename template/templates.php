@@ -36,7 +36,7 @@
         4 => array(
             "img" => "profile.jpg",
             "text" => recordatorio,
-            "target" => "historiaclinica.php"
+            "target" => "reminder.php"
         ),
         5 => array(
             "img" => "profile.jpg",
@@ -145,5 +145,33 @@
             "time" => "00:50",
             "ingredientes" => "Tortilla, Salsa, Salchicha, Crema Agria, Huevos Revueltos, Croquetas de papa",
             "calorias" => "695 kcal" //https://www.fatsecret.com.mx/member/kohllee/meals/790/breakfast+burrito
+        )
+    );
+
+    $reminds = array(//https://www.who.int/medicines/publications/essentialmedicines/20th_EML2017.pdf
+        0 => array(
+            "nombre" => "Paracetamol",
+            "img" => "medicine.png",
+            "time" => "00:00",
+            "dosis" => "2💊",
+            "ingredientes" => "Tomar cada doce horas por una semana."
+        ),1 => array(
+            "nombre" => "Dexamethasone",
+            "img" => "medicine.png",
+            "time" => "10:00",
+            "dosis" => "1💉",
+            "ingredientes" => "Inyectar cada 36 horas por 5 dias."
+        ),2 => array(
+            "nombre" => "Pyrantel",
+            "img" => "medicine.png",
+            "time" => "08:30",
+            "dosis" => "1🍷",
+            "ingredientes" => "Tomar una vez al dia por una tres dias."
+        ),3 => array(
+            "nombre" => "Loratadine",
+            "img" => "medicine.png",
+            "time" => "03:00",
+            "dosis" => "1/2🍷",
+            "ingredientes" => "Tomar cada 6 horas por una semana"
         )
     );
