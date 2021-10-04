@@ -62,11 +62,11 @@
     grid-auto-flow: column;  
 }
 .foodPic{
-    width: 100px;
+    width: 150px;
     padding: 0;
     border-radius: 50%;
     border: 0;
-    margin: 20px 0px 0px 33px;
+    margin: -8px 0px 0px 10px;
 }
 .receipe {
     position: relative;

@@ -22,7 +22,7 @@
         <div class="recetasCont" id="recetasCont">
             <?php foreach ($recetas as $key => $value) { ?>
             <div class="receipe">
-                <img class="foodPic" src="./images/food1.png" alt="">
+                <img class="foodPic" src="./images/food<?= $key + 1 ?>.png" alt="">
                 <div class="receipeDetails">
                     <span class="dishName"><?= $value["nombre"] ?></span>
                     <span class="dishDur">⏱ <?= $value["duracion"] ?></span>
@@ -40,7 +40,7 @@
     </div>
     <div class="queQuiereCont">
         <?php foreach ($menu as $key => $value) { ?>
-        <div class="loQueQuiere" onclick='location.replace("<?= $value["taget"] ?>")'>
+        <div class="loQueQuiere" onclick='location.replace("<?= $value["target"] ?>")'>
             <img class="loQueQuierePic" src="./images/<?= $value["img"] ?>" alt="">
             <span class="loQueQuiereName"><?= $value["text"] ?></span>
         </div>
@@ -52,7 +52,4 @@
 <script src="./scripts/mainpage.js"></script>
 <script>
     $("#nombreusuario").html(localStorage.getItem("name"));
-    setTimeout(() => {
-        location.reload()
-    }, 800);
 </script>
