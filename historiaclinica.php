@@ -31,9 +31,6 @@
 <script src="./scripts/historiaClinica.js"></script>
 <script>
     $("#nombreusuario").html(localStorage.getItem("name"));
-    setTimeout(() => {
-        location.reload()
-    }, 80000000);
     var ctx = document.getElementById('chart').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',

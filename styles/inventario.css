@@ -1,0 +1,122 @@
+.header {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    background: #0e123e;
+}
+.body {
+    position: absolute;
+    top:110px;
+    background: white;
+    left:0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px 50px 0px 0px;
+    padding: 50px 30px 4px 30px;
+}
+.backButton {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 20px;
+    top: 23px;
+}
+.backButtonIcon {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.sectionTitleCont {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    align-content: center;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.sectionTitle {
+    position: absolute;
+    color: white;
+    top: 30px;
+    left:15px;
+    font-size: 30px;
+}
+
+/********************************************/
+
+.addBtn {
+    position: absolute;
+    right: 15px;
+    padding-right: 30px;
+    border-radius: 10px 40px 10px 10px;
+    top: 15px;
+    background: #fe93d5;
+    font-size: 25px;
+}
+.inv {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-gap: 8px;
+    padding: 8px;
+}
+.categoria {
+    background-color: #f2a3d4;
+    border-radius: 11px;
+    display: grid;
+}
+.categoriaName {
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.invElem {
+    position: relative;
+    background: #290f6473;
+    color: white;
+    border: solid #290f64 3px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    overflow: hidden;
+}
+.invImg {
+    height: 55px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 7px 0px 0px 7px;
+}
+.name {
+    position:absolute;
+    top: 11px;
+    font-size: 25px;
+    padding-left: 8px;
+}
+.cant {
+    position: absolute;
+    right: 15px;
+    font-size: 45px;
+    top: -10px;
+}
+.med {
+    font-size: 18px;
+}
+.plus, .minus {
+    position: absolute;
+    left: -30px;
+    font-size: 18px;
+}
+.plus {
+    top: 10px;
+}
+.minus {
+    bottom: 7px;
+}

@@ -21,7 +21,7 @@
         1 => array(
             "img" => "profile.jpg",
             "text" => inventario,
-            "target" => "historiaclinica.php"
+            "target" => "inventario.php"
         ),
         2 => array(
             "img" => "profile.jpg",
@@ -41,7 +41,7 @@
         5 => array(
             "img" => "profile.jpg",
             "text" => vincularSmart,
-            "target" => "historiaclinica.php"
+            "target" => "sync.php"
         ),
     );
 
@@ -59,4 +59,55 @@
             "name" => peso,
             "id" => "heavy"
         ),
+    );
+
+    $inventario = array(
+        0 => array(
+            "catName" => "Frutas",
+            "prods" => array(
+                0 => array(
+                    "nombre" => "Platano",
+                    "medida" => "Kg",
+                    "cant" => "3",
+                    "img" => "profile.jpg"
+                ),1 => array(
+                    "nombre" => "Manzana",
+                    "medida" => "Un",
+                    "cant" => "6",
+                    "img" => "profile.jpg"
+                )
+            )
+        ),
+        1 => array(
+            "catName" => "Verduras",
+            "prods" => array(
+                0 => array(
+                    "nombre" => "Zanahoria",
+                    "medida" => "Kg",
+                    "cant" => "2",
+                    "img" => "profile.jpg"
+                ),1 => array(
+                    "nombre" => "Tomate",
+                    "medida" => "Kg",
+                    "cant" => "1",
+                    "img" => "profile.jpg"
+                )
+            )
+        ),
+        2 => array(
+            "catName" => "Lacteos",
+            "prods" => array(
+                0 => array(
+                    "nombre" => "Leche",
+                    "medida" => "Lts",
+                    "cant" => "6",
+                    "img" => "profile.jpg"
+                ),1 => array(
+                    "nombre" => "Queso",
+                    "medida" => "Kg",
+                    "cant" => "1",
+                    "img" => "profile.jpg"
+                )
+            )
+        )
     );

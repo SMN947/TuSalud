@@ -54,11 +54,6 @@
 </div>
 
 <?php include("./template/footer.php"); ?>
-<script>
-setTimeout(() => {
-        location.reload()
-    }, 50000000);
-</script>
 <link rel="stylesheet" href="./styles/firstForm.css">
 <script>
     

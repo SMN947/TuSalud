@@ -45,12 +45,19 @@ const topRecetas = "Ça a l'air délicieux!";
 const queNecesitas = "Qu'est-ce qu'il vous faut?";
 
 const antecedentesMedicos = "Antécédents médicaux";
-const inventario = "inventario";
-const recetario = "recetario";
-const domicilios = "domicilios";
-const recordatorio = "recordatorio";
+const inventario = "Inventario";
+const recetario = "Recetario";
+const domicilios = "Domicilios";
+const recordatorio = "Recordatorio";
 const vincularSmart = "Sync Devices";
 
 const presionArterial = "Presion Arterial";
 const ritmoCardiaco = "Ritmo Cardiaco";
 const glucosa = "Glucosa";
+
+const sincronizar = "Sincronizar";
+const bluetoothMustBeOn = "Bluetooth debe estar activado";
+
+const verduras = "verduras";
+const frutas = "frutas";
+const lacteos = "lacteos";
