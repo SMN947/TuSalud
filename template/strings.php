@@ -44,12 +44,12 @@ const guardar = "Sauvez";
 const topRecetas = "Ça a l'air délicieux!";
 const queNecesitas = "Qu'est-ce qu'il vous faut?";
 
-const antecedentesMedicos = "Antécédents médicaux";
-const inventario = "Inventario";
-const recetario = "Recetario";
-const domicilios = "Domicilios";
-const recordatorio = "Recordatorio";
-const vincularSmart = "Sync Devices";
+const antecedentesMedicos = "🆗Antécédents médicaux";
+const inventario = "🆗Inventario";
+const recetario = "🆗Recetario";
+const domicilios = "❌Domicilios";
+const recordatorio = "❌Recordatorio";
+const vincularSmart = "🆗Sync Devices";
 
 const presionArterial = "Presion Arterial";
 const ritmoCardiaco = "Ritmo Cardiaco";
