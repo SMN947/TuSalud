@@ -11,7 +11,7 @@
         <h3><span id="nombreusuario"></span></h3>
     </div>
     <div class="profilePic">
-        <img class="profilePicImg" src="./images/profile.jpg" alt="">
+        <img id="profilePicImg" class="profilePicImg" src="./images/profile.jpg" alt="">
     </div>
 </div>
 <div class="body">
@@ -52,4 +52,9 @@
 <script src="./scripts/mainpage.js"></script>
 <script>
     $("#nombreusuario").html(localStorage.getItem("name"));
+    if(localStorage.getItem("name").toLowerCase().trim() == 'marina') {
+        $('#profilePicImg').attr('src','./images/marina.png');
+    }else{
+        $('#profilePicImg').attr('src','./images/profile.jpg');
+    }
 </script>
