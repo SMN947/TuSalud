@@ -63,15 +63,15 @@
 
     $inventario = array(
         0 => array(
-            "catName" => "Frutas",
+            "catName" => "Fruits",
             "prods" => array(
                 0 => array(
-                    "nombre" => "Platano",
+                    "nombre" => "Banane",
                     "medida" => "Kg",
                     "cant" => "3",
                     "img" => "profile.jpg"
                 ),1 => array(
-                    "nombre" => "Manzana",
+                    "nombre" => "Pommes",
                     "medida" => "Un",
                     "cant" => "6",
                     "img" => "profile.jpg"
@@ -79,15 +79,15 @@
             )
         ),
         1 => array(
-            "catName" => "Verduras",
+            "catName" => "Légumes",
             "prods" => array(
                 0 => array(
-                    "nombre" => "Zanahoria",
+                    "nombre" => "Carottes",
                     "medida" => "Kg",
                     "cant" => "2",
                     "img" => "profile.jpg"
                 ),1 => array(
-                    "nombre" => "Tomate",
+                    "nombre" => "Tomates",
                     "medida" => "Kg",
                     "cant" => "1",
                     "img" => "profile.jpg"
@@ -95,15 +95,15 @@
             )
         ),
         2 => array(
-            "catName" => "Lacteos",
+            "catName" => "Lactées",
             "prods" => array(
                 0 => array(
-                    "nombre" => "Leche",
+                    "nombre" => "Lait",
                     "medida" => "Lts",
                     "cant" => "6",
                     "img" => "profile.jpg"
                 ),1 => array(
-                    "nombre" => "Queso",
+                    "nombre" => "Fromage",
                     "medida" => "Kg",
                     "cant" => "1",
                     "img" => "profile.jpg"
