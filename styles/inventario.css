@@ -81,13 +81,14 @@
     position: relative;
     background: #290f6473;
     color: white;
-    border: solid #290f64 3px;
+    border: solid #290f64 2px;
     margin-left: 10px;
     border-radius: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     height: 60px;
     overflow: hidden;
+    box-shadow: 4px 4px 14px 0px #290f64;
 }
 .invImg {
     height: 55px;
