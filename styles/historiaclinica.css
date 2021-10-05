@@ -64,8 +64,9 @@
 .score {
     border: solid purple 1px;
     position: relative;
-    background: #fd93d5;
+    background: #f2a3d4;
     border-radius: 10px;
+    cursor: pointer;
 }
 .scoreName {
     position: absolute;
@@ -80,19 +81,24 @@
     position: absolute;
     top: 10px;
     bottom: 30;
-    right: 0;
+    right: 10px;
     font-size: 60px;
     line-height: 50px;
 }
 .scoreUnit {
     position: absolute;
-    top: 60;
+    top: 65;
     bottom: 0;
-    right: 5px;
+    width: 100px;
+    right: 0;
     font-size: 20px;
     line-height: 20px;
     align-content: center;
     text-align: center;
+    background: #0e123e;
+    color: white;
+    padding-top: 9px;
+    border-radius: 40px 0px 10px 40px;
 }
 .scoreLast {
     position: absolute;

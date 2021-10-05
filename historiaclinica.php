@@ -30,19 +30,18 @@
 <?php include("./template/footer.php"); ?>
 <script src="./scripts/historiaClinica.js"></script>
 <script>
-    $("#nombreusuario").html(localStorage.getItem("name"));
-    var ctx = document.getElementById('chart').getContext('2d');
-    var myChart = new Chart(ctx, {
-        type: 'line',
-        data: chartsData[0].data
-    });
-
     chartsData.map((el)=> {
         var data = el.data.datasets[0].data;
         var labels = el.data.labels;
         $(`#${el.name}Value`).html(data[data.length-1]);
         $(`#${el.name}Unit`).html(el.measure);
         $(`#${el.name}Last`).html(labels[labels.length-1]);
+    });
+
+    var ctx = document.getElementById('chart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: chartsData[0].data
     });
 
     
