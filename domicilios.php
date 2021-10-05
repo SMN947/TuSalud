@@ -4,7 +4,7 @@
 
 <div class="header" onclick="location.replace(BASEURL + '/main.php')">
     <div class="sectionTitleCont">
-        <h3 class="sectionTitle"><?= recetario ?></h3>
+        <h3 class="sectionTitle"><?= domicilios ?></h3>
     </div>
     <div class="backButton">
         <span class="backButtonIcon">◀</span>
@@ -12,22 +12,32 @@
 </div>
 <div class="body">
     <div class="controles">
-        <button class="btn addBtn">
-            Add
-        </button>
+        <button class="btn leftBtn"><?= medicinas ?></button>
+        <button class="btn centerBtn"><?= frutas ?></button>
+        <button class="btn rightBtn"><?= verduras ?></button>
     </div>
-    <div class="recetas">
-        <?php foreach ($recetario as $key => $value) { ?>
-        <div class="receta">
-            <img class="img" src="./images/<?= $value["img"] ?>" alt="">
-            <span class="rating">⭐<?= $value["rating"] ?></span>
-            <span class="creador"><?= $value["creador"] ?></span>
-            <span class="nombre"><?= $value["nombre"] ?></span>
-            <span class="time">⏱<?= $value["time"] ?></span>
-            <span class="calorias">🔋<?= $value["calorias"] ?></span>
-            <span class="ingred"><?= $value["ingredientes"] ?></span>
+    <div class="domicilios">
+        <?php foreach ($pedidos as $key => $value) { ?>
+        <div class="domicilio">
+            <span class="id">🔖<?= $value["id"] ?></span>
+            <span class="date">📅<?= $value["date"] ?></span>
+            <span class="type"><?= $value["type"] ?></span>
+            <span class="status <?= $value["status"] ?>"><?= $value["status"] ?></span>
+            <hr class="hr1">
+            <span class="store">🛒<?= $value["store"] ?></span>
+            <span class="payment">
+                <?= $value["payment"] ?>
+                <span class="value">
+                    <?= $value["value"] ?>
+                </span>
+            </span>
         </div>
         <?php }  ?>
     </div>
 </div>
+<!-- <script>
+    setTimeout(() => {
+        location.reload()
+    }, 500); -->
+</script>
 <?php include("./template/footer.php"); ?>

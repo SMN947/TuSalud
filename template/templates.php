@@ -175,3 +175,42 @@
             "ingredientes" => "Prendre toutes les 6 heures pendant une semaine"
         )
     );
+
+    
+    $pedidos = array(
+        0 => array(
+            "id" => "SRF789",
+            "date" => "2021-10-05",
+            "status" => "DELIVERED",
+            "type" => medicinas,
+            "store" => "La Rebaja",
+            "payment" => "💳",
+            "value" => "$20.000",
+        ),1 => array(
+            "id" => "TRE458",
+            "date" => "2021-10-04",
+            "status" => "CANCELED",
+            "type" => verduras,
+            "store" => "Verduras Verdes",
+            "payment" => "💳",
+            "value" => "$30.000",
+        ),2 => array(
+            "id" => "WER154",
+            "date" => "2021-10-04",
+            "status" => "DELIVERED",
+            "type" => frutas,
+            "store" => "La Rebaja",
+            "payment" => "💳",
+            "value" => "$30.000",
+        ),3 => array(
+            "id" => "PLK259",
+            "date" => "2021-10-01",
+            "status" => "DELIVERED",
+            "type" => frutas,
+            "store" => "Las Frutas",
+            "payment" => "💵",
+            "value" => "$15.000",
+        )
+    );    
+    
+    

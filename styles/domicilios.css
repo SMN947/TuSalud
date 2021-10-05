@@ -47,86 +47,98 @@
 }
 
 /********************************************/
-.recetas {
+/*374*/
+.btn {
+    top: 15px;
+    background: #fe93d5;
+    font-size: 17px;
+    width: 123px;
+}
+.leftBtn {
     position: absolute;
-    top: 75px;
+    left: 15px;
+    padding-left: 12px;
+    border-radius: 30px 0px 0px 0px;
+}
+.centerBtn {
+    position: absolute;
+    left: 140px;
+    padding-right: 30px;
+    border-radius: 0px 0px 0px 0px;
+}
+.rightBtn {
+    position: absolute;
+    right: 15px;
+    padding-right: 30px;
+    border-radius: 0px 40px 0px 0px;
+}
+.domicilios {
+    position: absolute;
+    top: 50px;
     left: 0;
     right: 0;
     bottom: 0;
     display: grid;
     grid-gap: 5px;
     overflow-y: hidden;
-    padding: 8px;
+    padding: 15px;
 }
-.receta {
+.domicilio {
     position: relative;
     height: 140px;
     border-radius: 15px;
     background: #f2a3d4;
+    border: #0e123e solid 1px;
 }
-.img {
+.store, .type, .payment, .id, .date, .status, .hr1 {
     position: absolute;
-    height: 140px;
-    background: #290f6473;
-    border-radius: 20px 80px 80px 20px ;
 }
-.rating {
+.id {
     position: absolute;
-    left: 5px;
-    top: 5px;
-    color: white;
-}
-.creador {
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-}
-.nombre {
-    position: absolute;
-    left: 130px;
-    top: 5px;
     font-size: 20px;
+    left: 15px;
+    top: 3px;
 }
-.time {
+.date {
     position: absolute;
-    right: 5px;
-    top: 5px;
-    font-size: 20px;
-    
+    font-size: 14px;
+    top: 31px;
+    left: 15px;
 }
-.calorias {
-    position: absolute;
-    left: 130px;
-    bottom: 5px;
-}
-.ingred {
-    position: absolute;
-    left: 145px;
-    top: 35px;
-    right: 5px;
-    bottom: 30px;
-    line-height: 17px;
-    border-top: solid 2px purple;
-    border-bottom: solid 2px purple;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.addBtn {
-    position: absolute;
+.status {
     right: 15px;
-    padding-right: 30px;
-    border-radius: 10px 40px 10px 10px;
-    top: 15px;
-    background: #fe93d5;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    top: 11px;
+}
+.CANCELED {
+    border: solid red 3px;
+}
+.DELIVERED {
+    border: solid green 3px;
+}
+.hr1 {
+    top: 45px;
+    left: 0;
+    right: 0;
+    background: #0e123e;
+}
+.store {
+    top: 80px;
+    left: 15px;
     font-size: 25px;
+}
+.type {
+    top: 70px;
+    right: 15px;
+    font-size: 20px;
+}
+.payment {
+    bottom: 3px;
+    right: 15px;
+    font-size: 25px;
+}
+.value {
+    font-size: 18px;
 }

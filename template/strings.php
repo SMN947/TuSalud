@@ -61,3 +61,4 @@ const bluetoothMustBeOn = "Bluetooth doit être activé";
 const verduras = "Légumes";
 const frutas = "Fruits";
 const lacteos = "Lactées";
+const medicinas = "Médicaments";
