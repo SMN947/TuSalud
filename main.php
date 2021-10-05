@@ -36,7 +36,7 @@
 
     
     <div class="queQuiere">
-        <h3><?= topRecetas ?></h3>
+        <h3><?= queNecesitas?></h3>
     </div>
     <div class="queQuiereCont">
         <?php foreach ($menu as $key => $value) { ?>

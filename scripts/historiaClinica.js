@@ -18,13 +18,13 @@ var chartsData = [
         data: {
             labels: labels,
             datasets: [{
-                label: 'presión diastólica',
+                label: 'Pression diastolique',
                 data: diastolica,
                 fill: false,
                 borderColor: 'rgb(75, 192, 192)',
                 tension: 0.5
             },{
-                label: 'presión sistólica',
+                label: 'Pression systolique',
                 data: sistolica,
                 fill: false,
                 borderColor: 'rgb(75, 192, 192)',

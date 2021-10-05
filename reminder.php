@@ -13,16 +13,16 @@
 <div class="body">
     <div class="controles">
         <button class="btn addBtn">
-            Add
+            Ajouter 
         </button>
-        <button class="btn soundBtn">🎵 - Chop Suey! Syst...</button>
+        <button class="btn soundBtn">🎵 - Chop Suey! S...</button>
     </div>
     <div class="reminds">
         <?php foreach ($reminds as $key => $value) { ?>
         <div class="remind">
             <img class="img" src="./images/<?= $value["img"] ?>" alt="">
             <span class="nombre">🏷<?= $value["nombre"] ?></span>
-            <span class="time">⏱Next at <?= $value["time"] ?></span>
+            <span class="time">⏱Suivant <?= $value["time"] ?></span>
             <span class="ingred"><?= $value["ingredientes"] ?></span>
             <span class="dosis"><?= $value["dosis"] ?></span>
         </div>

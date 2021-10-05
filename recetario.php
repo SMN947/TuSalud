@@ -13,7 +13,7 @@
 <div class="body">
     <div class="controles">
         <button class="btn addBtn">
-            Add
+            Ajouter
         </button>
     </div>
     <div class="recetas">
